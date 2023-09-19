@@ -19,6 +19,7 @@ const BillBoard: FC<BillBoardProps> = ({}) => {
         poster={data?.thumbnailUrl}
         className="w-full h-[56.25vw] object-cover brightness-[60%] transition duration-500"
         autoPlay
+        muted
         loop
         src={data?.videoUrl}
       ></video>
